@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup-button {
+    position: relative;
+    width: 210px;
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-size: 20px;
+    text-align: center;
+}
+
+.infoTip-box {
+    position: absolute;
+    display: none;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.infoTip-visible {
+    display: block;
+}
+
+.infoTip-title {
+    height: 25px;
+    font-size: 16px;
+    background: rgb(221, 219, 217);
+}
+
+.infoTip-description {
+    font-size: 14px;
+}
+
+/*# sourceMappingURL=main.css.map*/
