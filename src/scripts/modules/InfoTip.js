@@ -7,6 +7,7 @@ export default class InfoTip {
     `;
   }
 
+  // eslint-disable-next-line class-methods-use-this
   showInfoTip(element) {
     if (!document.querySelector('.infoTip-box')) {
       const infoTipElement = document.createElement('div');

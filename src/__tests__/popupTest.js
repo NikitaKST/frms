@@ -23,4 +23,4 @@ test('test infoTip', () => {
   button.click();
   const infoTip = document.querySelector('.infoTip-visible');
   expect(infoTip).not.toBe('undefined');
-}); 
+});
