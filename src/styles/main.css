@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.btn {
+.popup-button {
     position: relative;
     width: 210px;
     margin-top: 150px;
@@ -14,10 +14,9 @@
     border-color: #dc3545;
     font-size: 20px;
     text-align: center;
-
 }
 
-.tooltip__container {
+.infoTip-box {
     position: absolute;
     display: none;
     width: 250px;
@@ -25,16 +24,16 @@
     border-radius: 5px;
 }
 
-.tooltip__active {
+.infoTip-visible {
     display: block;
 }
 
-.tooltip-title {
+.infoTip-title {
     height: 25px;
     font-size: 16px;
     background: rgb(221, 219, 217);
 }
 
-.tooltip-text {
+.infoTip-description {
     font-size: 14px;
 }
